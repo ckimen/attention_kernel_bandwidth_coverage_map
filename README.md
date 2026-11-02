@@ -1,11 +1,11 @@
-# rlrsr_jd174
+# attention_kernel_bandwidth_coverage_map
 
 **映射强化学习研究员·注意力核��的访存瓶颈的覆盖情况并找出未覆盖的部分。**
 
-`rlrsr_jd174` —— 把候选项映射到类别上，算出强化学习研究员·注意力核��的访存瓶颈的覆盖率并列出未覆盖的类别
+`attention_kernel_bandwidth_coverage_map` —— 把候选项映射到类别上，算出强化学习研究员·注意力核��的访存瓶颈的覆盖率并列出未覆盖的类别
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`rlrsr_jd174.py` 拷走就能用
+- 单文件，`attention_kernel_bandwidth_coverage_map.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install ckimen-rlrsr_jd174
+pip install ckimen-attention_kernel_bandwidth_coverage_map
 ```
 
 装完直接用命令名调用：
 
 ```bash
-rlrsr_jd174 --help
+attention_kernel_bandwidth_coverage_map --help
 ```
 
-也可以不用安装，直接把 `rlrsr_jd174.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `attention_kernel_bandwidth_coverage_map.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ rlrsr_jd174 --help
 ## 用法
 
 ```bash
-python rlrsr_jd174.py --file input.txt
-python rlrsr_jd174.py --text "示例内容"
-python rlrsr_jd174.py --file input.txt --json
+python attention_kernel_bandwidth_coverage_map.py --file input.txt
+python attention_kernel_bandwidth_coverage_map.py --text "示例内容"
+python attention_kernel_bandwidth_coverage_map.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python rlrsr_jd174.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_rlrsr_jd174.py
+python test_attention_kernel_bandwidth_coverage_map.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_rlrsr_jd174.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/ckimen/rlrsr_jd174>
+- GitHub 仓库：<https://github.com/ckimen/attention_kernel_bandwidth_coverage_map>
 
 ---
 
@@ -79,7 +79,7 @@ python test_rlrsr_jd174.py
 ckimen 做强化学习研究员·注意力核��的访存瓶颈相关的问题，方向对标英伟达的资深强化学习研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://ckimen.github.io>
-- 仓库：<https://github.com/ckimen/rlrsr_jd174>
+- 仓库：<https://github.com/ckimen/attention_kernel_bandwidth_coverage_map>
 
 ## 许可
 
